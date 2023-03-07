@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Accommodate from './chapter_07/Accommodate';
+
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// import Library from './chapter_03/Library';
-// import Clock from './chapter_04/Clock';
-// import CommentList  from './chapter_05/CommentList';
-//import NotificationList from './chapter_06/NotificationList';
+import Library from './chapter_03/Library';
+import Clock from './chapter_04/Clock';
+import CommentList  from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
+import Accommodate from './chapter_07/Accommodate';
+import ConfirmButton from './chapter_08/ConfirmButton';
+import ConfirmButton_function from './chapter_08/ConfirmButton_function';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(/
@@ -18,7 +21,7 @@ import reportWebVitals from './reportWebVitals';
 // );
 ReactDOM.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton_function />
   </React.StrictMode>,
   document.getElementById('root')
 );
