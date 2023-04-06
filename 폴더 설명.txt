@@ -1,3 +1,0 @@
-DAY1 - 초반
-first-met-react-practice-v18 : 예시
-MY-APP : 실습

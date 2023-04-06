@@ -22,6 +22,7 @@ class ConfirmButton extends Component {
     }
     render() {
         return (
+            
             <button
                 onClick={this.handleConfirm}
                 disabled={this.state.isConfirmed}
